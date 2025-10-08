@@ -6,10 +6,10 @@ import time
 # =====================================================
 
 # 👉 Remplace par ta vraie clé DeepSeek :
-DEEPSEEK_API_KEY = "sk-9c0ffabb7a6e494ea5d825d8a92db616"
+DEEPSEEK_API_KEY = ""
 
 # 👉 Remplace par ta clé Google News API :
-GOOGLE_NEWS_API = "059f7b87745542fca9b238ddde3d18d6"
+GOOGLE_NEWS_API = ""
 
 # =====================================================
 # 📰 1. Récupérer les dernières actualités Google News
@@ -116,3 +116,4 @@ if __name__ == "__main__":
         print("📰 Actualité :", d["title"])
         print("💬 Analyse DeepSeek :", d.get("deepseek"))
         print("---")
+
